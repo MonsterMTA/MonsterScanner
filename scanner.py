@@ -29,8 +29,8 @@ DEFAULT_PORTS       = [80]
 DEFAULT_PING_COUNT  = 4
 
 SUBNETS_URL = "https://raw.githubusercontent.com/ircfspace/cf-ip-ranges/main/export.ipv4"
-DOMAINS_URL = "https://raw.githubusercontent.com/MonsterMTA/MonsterScanner/main/cf-domains.txt"
-SNI_URL     = "https://raw.githubusercontent.com/MonsterMTA/MonsterScanner/main/sni-domains.txt"
+DOMAINS_URL = "https://raw.githubusercontent.com/MonsterMTA/MonsterScanner/main/sources/cf-domains.txt"
+SNI_URL     = "https://raw.githubusercontent.com/MonsterMTA/MonsterScanner/main/sources/sni-domains.txt"
 
 colo_cache: dict   = {}
 cache_hits: int    = 0
